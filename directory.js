@@ -230,5 +230,26 @@ class DirectoryClass {
         return this.disabledAssets.has(`${code.toUpperCase()}-${issuer}`);
     }
 }
+const lexAnchor = {
+  domain: 'getlexaicoin.com',
+  display_name: 'Lexaicoin',
+  website: 'https://getlexaicoin.com',
+  logo: 'https://raw.githubusercontent.com/dancercasey/getlexaicoin/main/assets/lexaicoin-stellarterm.png',
+  color: '#1A1A1A',
+  assets: [
+    {
+      code: 'LEX',
+      issuer: 'GA3DQRTXVLHWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', // Replace with full issuer public key
+      name: 'Lexaicoin',
+      desc: 'Validator-grade asset with audit-ready governance',
+      conditions: 'Distributed via contest and validator channels',
+      image: 'https://raw.githubusercontent.com/dancercasey/getlexaicoin/main/assets/lexaicoin-stellarterm.png',
+      display_decimals: 7,
+      fixed_number: 1000000000
+    }
+  ]
+};
+
+directory.addIssuerOrganization(lexAnchor);
 
 module.exports = new DirectoryClass();
