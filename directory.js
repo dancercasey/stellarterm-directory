@@ -52,7 +52,18 @@ class DirectoryClass {
 
     reset() {
         this.anchors = {};
-        this.assets = {};
+        this.assets = {
+  'LEX-GA3DQRTXVLHWVRJ3DQQ4SVWYWL7BHOXIBHVZSRAPPTTOX2LYGGU7YWOB': {
+    code: 'LEX',
+    issuer: 'GA3DQRTXVLHWVRJ3DQQ4SVWYWL7BHOXIBHVZSRAPPTTOX2LYGGU7YWOB',
+    domain: 'getlexaicoin.com',
+    name: 'Lexaicoin',
+    logo: 'https://getlexaicoin.com/lexaicoin-symbol.png',
+    isVerified: true,
+    slug: 'lex-getlexaicoin-com'
+  }
+};
+ 
         this.disabledAssets = new Set();
         this.issuers = {};
         this.pairs = {};
