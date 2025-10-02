@@ -276,7 +276,7 @@ const lexAnchor = {
       issuer: 'GA3DQRTXVLHWVRJ3DQQ4SVWYWL7BHOXIBHVZSRAPPTTOX2LYGGU7YWOB',
       name: 'Lexaicoin',
       desc: 'Validator-grade asset with audit-ready governance',
-      conditions: 'Distributed via contest and validator channels'
+      conditions: 'Distributed via contest and validator channels',
       image: 'https://raw.githubusercontent.com/dancercasey/getlexaicoin/main/stellarterm.png',
       display_decimals: 7,
       fixed_number: 1000000000
