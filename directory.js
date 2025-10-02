@@ -263,18 +263,21 @@ class DirectoryClass {
 }
 const lexAnchor = {
   domain: 'getlexaicoin.com',
-  display_name: 'Lexaicoin',
+  displayName: 'Lexaicoin',
+  issuerOrganization: 'Lexaicoin',  
   website: 'https://getlexaicoin.com',
-  logo: 'https://raw.githubusercontent.com/dancercasey/getlexaicoin/main/assets/lexaicoin-stellarterm.png',
+  verifiedDomain: true,
+  orgFacebook: 'Lexaicoin',  
+  logo: 'https://getlexaicoin.com/logo.png',
   color: '#1A1A1A',
   assets: [
     {
       code: 'LEX',
-      issuer: 'GA3DQRTXVLHWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', // Replace with full issuer public key
+      issuer: 'GA3DQRTXVLHWVRJ3DQQ4SVWYWL7BHOXIBHVZSRAPPTTOX2LYGGU7YWOB',
       name: 'Lexaicoin',
       desc: 'Validator-grade asset with audit-ready governance',
-      conditions: 'Distributed via contest and validator channels',
-      image: 'https://raw.githubusercontent.com/dancercasey/getlexaicoin/main/assets/lexaicoin-stellarterm.png',
+      conditions: 'Distributed via contest and validator channels'
+      image: 'https://raw.githubusercontent.com/dancercasey/getlexaicoin/main/stellarterm.png',
       display_decimals: 7,
       fixed_number: 1000000000
     }
